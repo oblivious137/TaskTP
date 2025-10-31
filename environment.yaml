@@ -1,4 +1,4 @@
-name: prune
+name: test
 channels:
   - pytorch
   - nvidia
@@ -133,11 +133,10 @@ dependencies:
   - pip:
       - absl-py==2.1.0
       - addict==2.4.0
-      - algm==0.1
+      # - algm==0.1
       - aliyun-python-sdk-core==2.15.1
       - aliyun-python-sdk-kms==2.16.3
       - blessed==1.20.0
-      - bypy==1.8.5
       - cffi==1.16.0
       - click==8.1.7
       - colorama==0.4.6
@@ -181,7 +180,7 @@ dependencies:
       - ordered-set==4.1.0
       - oss2==2.17.0
       - pandas==2.2.2
-      - panopticapi==0.1
+      - git+https://github.com/cocodataset/panopticapi.git
       - protobuf==5.28.2
       - pycocotools==2.0.8
       - pycparser==2.22
